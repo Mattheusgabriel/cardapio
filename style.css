@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('img/background-section1.png') no-repeat center bottom;
+    background-size: cover;
+    gap: 10px;
+    height: 60vh;
+    
+}
+
+.img-section {
+    width: 40%;
+    border-radius: 100%;
+}
+
+.titulo_left {
+    font-family: 'poppins';
+    font-weight: 500;
+    width: 50%;
+    font-size: 0.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container-link {
+    background-color: rgba(255, 0, 0, 0.853);
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    width: 60%;
+    padding: 0.6em;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.container-link:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.container_titulo {
+    background-color: #04b104;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    width: 60%;
+    padding: 0.6em;
+    border-radius: 6px;
+}
+
+.container_titulo:hover {
+   background-color:  rgb(0, 198, 0);
+}
+
+.container-sobre {
+    background-color: #d2691e1a;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10%;
+}
+
+.container-titulo-sobre {
+    width: 100%;
+    font-family: "Bebas Neue", serif;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+strong {
+    color: rgb(196, 127, 0);
+    text-shadow: 2px 3px 4px rgba(255, 0, 0, 0.075);
+}
+
+.container-paragrafo-sobre {
+    text-align: justify;
+    text-indent: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 20px;
+    width: 100%;
+}
+
+.container-rodape {
+    background-color: chocolate;
+    padding: 3%;
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+
